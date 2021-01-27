@@ -1,0 +1,1 @@
+export const etcConfig = { aaa: 111 }

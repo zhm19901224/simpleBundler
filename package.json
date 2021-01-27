@@ -1,0 +1,25 @@
+{
+  "name": "simplebundler",
+  "version": "1.0.0",
+  "description": "一个基于babel的简单的打包器",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bundler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhm19901224/simpleBundler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhm19901224/simpleBundler/issues"
+  },
+  "homepage": "https://github.com/zhm19901224/simpleBundler#readme",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/parser": "^7.12.11",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/traverse": "^7.12.12"
+  }
+}
